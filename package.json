@@ -1,0 +1,26 @@
+{
+  "name": "guest_information_management_system",
+  "version": "1.0.0",
+  "description": "This repository contains a Node.js console application developed using Visual Studio Code. The application is designed to run in a command-line environment, allowing users to interact with it through the terminal or command prompt.\r Guest Information Management System\r This repository contains a Guest Information Management System developed using Node.js and Visual Studio Code. The system is designed to manage and store information about guests in a user-friendly and efficient manner.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinethdf/Guest_Information_Management_System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinethdf/Guest_Information_Management_System/issues"
+  },
+  "homepage": "https://github.com/dinethdf/Guest_Information_Management_System#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "yargs": "^17.7.2"
+  }
+}

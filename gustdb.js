@@ -1,18 +1,27 @@
-// Data Save
-console.log("Database DB")
-const Name = "Dineth";
+// // Data Save
+// console.log("Database DB")
+// const Name = "Dineth";
 
-const add =() => {
-    return "Adding Now"
+const add =(name) => {
+    console.log("Adding", name);
 }
 
+const update =() => {
+    console.log("Update");
+}
 
-const upt =() => {
-    return "Updating Now"
+const delet =() => {
+    console.log("Delete");
+}
+
+const read =() => {
+    console.log("Read");
+}
+const listGuest =() => {
+    console.log("List");
 }
 
 module.exports = {
-    addx:add,
-    uptx:upt
-};
-    
+    add, update, delet, read, listGuest
+
+}
